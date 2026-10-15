@@ -1,7 +1,7 @@
  ---
   name: Test Specialist
   description: Focuses on test coverage, quality, and testing best practices without modifying production code
-  model: gpt-4o
+  model: gpt-4o → model: claude-sonnet-4
   tools: ["read", "search", "edit"]
   user-invocable: true
   disable-model-invocation: false
