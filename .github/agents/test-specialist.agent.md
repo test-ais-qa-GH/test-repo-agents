@@ -1,8 +1,8 @@
  ---
   name: Test Specialist
-  description: Focuses on test coverage, quality, and testing best practices without modifying production code
+  description: Comprehensive testing specialist covering unit, integration, and e2e tests with shell access
   model: gpt-4o → model: claude-sonnet-4
-  tools: ["read", "search", "edit"]
+  tools: ["read", "search", "edit", "execute"]
   user-invocable: true
   disable-model-invocation: false
   metadata:
