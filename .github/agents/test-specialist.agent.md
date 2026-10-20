@@ -1,7 +1,7 @@
 ---
 name: Test Specialist
 description: "Comprehensive testing specialist covering unit, integration, and e2e tests with shell access"
-model: gpt-4o → model: claude-sonnet-4
+model: claude-sonnet-4
 tools: ["read", "search", "edit", "execute"]
 user-invocable: true
 disable-model-invocation: false
