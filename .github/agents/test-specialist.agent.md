@@ -1,12 +1,18 @@
 ---
 name: Test Specialist
 description: "Comprehensive testing specialist covering unit, integration, and e2e tests with shell access"
-model: claude-sonnet-4
+model: gpt-4o
 tools: ["read", "search", "edit", "execute"]
 user-invocable: true
 disable-model-invocation: false
 metadata:
   role: testing
+mcp-servers:
+    test-mcp:
+      type: local
+      command: npx
+      args: ["test-server"]
+      tools: ["run-test"]
 ---
 
 You are a testing specialist focused on improving code quality through comprehensive testing.
