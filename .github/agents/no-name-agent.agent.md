@@ -1,6 +1,6 @@
 ---
 description: Agent without a name property — should use filename 'no-name-agent' as the display name
-model: gpt-4o
+model: claude-sonnet-4
 tools: ["read", "search"]
 ---
 
