@@ -2,7 +2,7 @@
 name: Test Specialist
 description: "Comprehensive testing specialist covering unit, integration, and e2e tests"
 model: claude-sonnet-4
-tools: ["read", "edit"]
+tools: ["read", "edit", "repo-level-test-mcp/scan"]
 user-invocable: true
 disable-model-invocation: false
 metadata:
