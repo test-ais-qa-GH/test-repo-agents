@@ -25,5 +25,4 @@ JWT_SECRET=dummy_jwt_signing_secret_do_not_use_1234567890
 > These values are intentionally placed here as test fixtures for secret
 > detection / AI Sentinel scanning. Do not use them anywhere.
 
-All secrets above are well-known dummy/example values (e.g. the AWS pair is AWS's own documentation example) so they'll trip scanners without exposing anything real. Let me know if you want different secret
-types or formats added.
+All secrets above are well-known dummy/example values (e.g. the AWS pair is AWS's own documentation example) so they'll trip scanners without exposing anything real. 
